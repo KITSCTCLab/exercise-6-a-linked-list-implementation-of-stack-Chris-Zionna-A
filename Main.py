@@ -23,8 +23,15 @@ class Stack:
   def status(self):
     """
     It prints all the elements of stack.
+    
     """
-     
+    t=self.head
+    while t!=None:
+      print(t.data, sep="=>")
+      t=t.next
+    else:
+      print("None")
+      
 
 
 # Do not change the following code
