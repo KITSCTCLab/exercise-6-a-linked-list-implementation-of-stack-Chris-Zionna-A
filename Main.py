@@ -27,7 +27,7 @@ class Stack:
     """
     t=self.head
     while t!=None:
-      print(t.data, sep="=>")
+      print(t.data, end="=>")
       t=t.next
     else:
       print("None")
